@@ -1,0 +1,1735 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Playfair+Display&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 2px 2px;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    letter-spacing: 0.2rem;
+}
+
+body{
+    background-color: rgb(214, 203, 203);
+    background:fixed;
+    background-color: rgb(126, 114, 114);
+    background-size:inherit;
+    position: static;
+}
+
+.logocontainer{
+    padding: 10px 10px;
+    background-color: rgb(100, 49, 8);
+    height: 20vh;
+}
+
+.logocontainer i{
+    transition: 00.5s;
+    font-size: 35px;
+}
+
+.logocontainer i:hover{
+    font-size: 40px;
+}
+
+.logocontainer a{
+    margin-left: 30px;
+}
+
+#whatsapp{
+    font-size: 30px;
+}
+
+#searchicon{
+    padding: 10px 10px;
+    margin-bottom: 600px;
+    border: 2px black solid;
+    box-shadow: 0.2px 0.2px 5px 5px rgb(36, 33, 33);
+    background-color: rgb(212, 212, 212);
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+    margin-left: 200px;
+    font-size: x-large;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+
+#searchicon:hover{
+    height: 50px;
+}
+
+#searchicon1{
+    position: absolute;
+    margin-right: 320px;
+    top: 85px;
+    right: 145px;
+    font-size: 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.searchicon1:hover{
+    font-size: 30px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+nav a{
+    color: white;
+    margin: 20px 20px 20px 20px;
+    font-size: x-large;
+    transition: 0.5s ease-in;
+}
+
+nav a:hover{
+    padding: 10px 10px;
+    border: 1px rgb(20, 132, 151) solid;
+    background-color: rgb(14, 113, 143);
+    color: lightgray;
+    border-radius: 12px;
+}
+
+.navbar{
+    background: transparent;
+    position: sticky;
+    padding: 20px 20px;
+    letter-spacing: 0.7rem;
+    background-color: rgb(192, 154, 154);
+}
+
+nav i{
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+#postor{
+    margin: 0px 0px 0px 50px;
+    width: 90%;
+    height: 400px;
+    background-image: url(images/background\ vegetables.jpg);
+    background-size: cover;
+    box-shadow: 1px 2px 10px 5px rgb(56, 48, 48) ;
+    animation: slider 20s infinite linear;
+}
+
+@keyframes slider{
+    0%{
+        background-image: url(images/background\ vegetables.jpg);
+    }
+    45%{
+        background-image: url(images/kiryana.jpg);
+    }
+    80%{
+        background-image: url(images/dairy\ products\ background.webp);
+    }
+}
+
+.getstared{
+    font-family: 'ubuntu' , sans-serif;
+    padding: 15px 15px;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    border-radius: 18px;
+    color: whitesmoke;
+    box-shadow: 2px 2px 10px 5px black;
+    border: 1px lightcoral solid;
+    background-color: rgb(177, 61, 41);
+}
+
+.getstared:hover{
+    background-color: rgb(180, 62, 41);
+    font-size: 20px;
+}
+
+.saleimg1{
+    margin: 40px 40px;
+}
+
+.saleimg1 img{
+    border-radius: 24px;
+    box-shadow: 2px 2px 1pc 10px rgb(51, 47, 47);
+}
+
+.saleimg1 img:hover{
+    box-shadow: none;
+}
+
+.selectcategory{
+    padding: 10px 10px;
+    font-family: 'nanuto',sans-serif;
+    border: 2px rgb(180, 57, 9) solid;
+    width: fit-content;
+    margin-left: 600px;
+    cursor: pointer;
+    color: rgb(243, 242, 240);
+    border-radius: 15px;
+}
+
+
+.selectcategory:hover{
+    color: white;
+    background-color: lightsalmon;
+    font-size: 25px;
+}
+
+.boxcontainer{
+    padding: 10px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(https://image.freepik.com/free-photo/blurred-background-supermarket-products-shelf-can-be-use-as-background_35652-1850.jpg);
+    background-size: contain;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.boxitems{
+    padding: 70px 70px;
+    margin: 20px 40px 20px 20px;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#viewitems{
+    padding: 10px 10px;
+    border-radius: 14px;
+    border: 2px rgb(41, 33, 33) solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 600px;
+}
+
+#viewitems:hover{
+    background-color: rgb(22, 19, 19);
+}
+
+#vegecatogery{
+    font-size: 3rem;
+    color: rgb(49, 31, 31);
+    background-image: url(images/vegetable\ image.jpeg);
+    background-size: cover;
+}
+
+#dailyusecatogery{
+    font-size: 3rem;
+    color: rgb(49, 31, 31);
+    background-image: url(images/basicneeds.png);
+    background-size: cover;
+}
+
+#basicusecatogery{
+    font-size: 3rem;
+    color: rgb(49, 31, 31);
+    background-image: url(images/kiryana.jpg);
+    background-size: cover;
+}
+
+#eatingcatogery{
+    font-size: 3rem;
+    color: rgb(49, 31, 31);
+    background-image: url(images/eating.jpg);
+    background-size: cover;
+}
+
+.boxitems button{
+    background-color: rgb(192, 34, 34);
+    color: whitesmoke;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-radius: 24px;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+
+
+#dairyheading{
+    padding: 10px 10px;
+}
+
+h2 b{
+    padding: 10px 10px;
+    background-color: rgb(182, 96, 16);
+    border: 2px rgb(161, 134, 83) solid;
+    border-radius: 12px;
+    font-size: 30px;
+    margin: 10px 10px 10px 10px;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+h2 i{
+    padding: 10px 10px;
+    background-color: chocolate;
+    border: 2px rgb(161, 134, 83) solid;
+    border-radius: 12px;
+    font-size: 30px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    color: aqua;
+}
+
+
+.dairyproducts{
+    margin: 0px 50px 0px 0px;
+    padding: 40px 40px;
+    display: grid;
+    margin-left: 50px;
+    grid-template-columns: 350px 350px 350px 350px;
+    width: 90%;
+    height: 600px;
+    background-color: rgb(236, 236, 236);
+    box-shadow: 1px 2px 10px 8px rgb(14, 19, 19);
+    background-position: fixed;
+    border-radius: 32px;
+    background-size:cover;
+}
+.dairyitems{
+    padding: 20px 20px;
+    margin: 10px 10px;
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+#milk{
+    background-image:url(images/milk\ back.html);
+    background-size: contain;
+}
+
+.moreitemsdairy{
+    padding: 10px 10px;
+    border-radius: 12px;
+    width: max-content;
+    color: white;
+    margin-top: 10px;
+    border:2px lightsalmon solid;
+    background-color: rgb(50, 79, 175);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.moreitemsdairy:hover{
+    font-size: 28px;
+    box-shadow: 1px 1px 3px 3px yellow;
+}
+
+#milk{
+    background-image: url(images/milk\ background.jpg);
+    background-size: contain;
+    border-radius: 50%;
+}
+
+#FlavouredMilk{
+    background-image: url(images/flavoured\ milk.jpg);
+    border-radius: 50%;
+    background-size: contain;
+}
+
+#PistaKesarMilk{
+    background-image: url(images/Kesar.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Rasmalai{
+    background-image: url(images/rasmalai.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#AddMilk{
+    padding: 10px 10px;
+    border: 2px rgb(255, 0, 0) solid;
+    width: fit-content;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: orangered;
+}
+
+#AddMilk:hover{
+    box-shadow: 2px 2px 2px 2px rgb(32, 28, 28);
+}
+
+#AddFlavouredMilk{
+    padding: 10px 10px 10px 10px;
+    border: 2px rgb(255, 0, 0) solid;
+    width: fit-content;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: orangered;
+}
+
+#AddFlavouredMilk:hover{
+    box-shadow: 2px 2px 2px 2px rgb(32, 28, 28);
+}
+
+#AddPistaKesarMilk{
+    padding: 10px 10px 10px 10px;
+    border: 2px rgb(255, 0, 0) solid;
+    width: fit-content;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: orangered;
+}
+
+#AddPistaKesarMilk:hover{
+    box-shadow: 2px 2px 2px 2px rgb(32, 28, 28);
+}
+
+#AddRasmalai{
+    padding: 10px 10px 10px 10px;
+    border: 2px rgb(255, 0, 0) solid;
+    width: fit-content;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: orangered;
+    
+}
+
+#AddRasmalai:hover{
+    box-shadow: 2px 2px 2px 2px rgb(32, 28, 28);
+}
+
+#Butter{
+    background-image: url(images/butter.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Chesse{
+    background-image: url(images/chesse.jpg);
+    background-size: cover;
+    border-radius:50%;
+}
+
+#Lassi{
+    background-image: url(images/Lassi.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#RedLassi{
+    background-image: url(images/Red\ Lassi.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#AddButter{
+    padding: 10px 10px 10px 10px;
+    border: 2px rgb(255, 0, 0) solid;
+    width: fit-content;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: orangered;
+}
+
+#AddButter:hover{
+    box-shadow: 2px 2px 2px 2px rgb(32, 28, 28);
+}
+
+#AddChesse{
+    padding: 10px 10px 10px 10px;
+    border: 2px rgb(255, 0, 0) solid;
+    width: fit-content;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: orangered;
+}
+
+#AddChesse:hover{
+    box-shadow: 2px 2px 2px 2px rgb(32, 28, 28);
+}
+
+#AddLassi{
+    padding: 10px 10px 10px 10px;
+    border: 2px rgb(255, 0, 0) solid;
+    width: fit-content;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: orangered;
+}
+
+#AddLassi:hover{
+    box-shadow: 2px 2px 2px 2px rgb(32, 28, 28);
+}
+
+#AddRedLassi{
+    padding: 10px 10px 10px 10px;
+    border: 2px rgb(255, 0, 0) solid;
+    width: fit-content;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: orangered;
+    
+}
+
+#AddRedLassi:hover{
+    box-shadow: 2px 2px 2px 2px rgb(32, 28, 28);
+}
+
+#dahi{
+    background-image: url(images/dahi.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Tea{
+    background-image: url(images/tea.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Coffee{
+    background-image: url(images/Coffee.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Panner{
+    background-image: url(images/Panner.jpg);
+    background-size: contain;
+    border-radius: 50%;
+}
+
+#Adddahi{
+    padding: 10px 10px 10px 10px;
+    border: 2px rgb(255, 0, 0) solid;
+    width: fit-content;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: orangered;
+}
+
+#Adddahi:hover{
+    box-shadow: 2px 2px 2px 2px rgb(32, 28, 28);
+}
+
+#AddTea{
+    padding: 10px 10px 10px 10px;
+    border: 2px rgb(255, 0, 0) solid;
+    width: fit-content;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: orangered;
+}
+
+#AddTea:hover{
+    box-shadow: 2px 2px 2px 2px rgb(32, 28, 28);
+}
+
+#AddCoffee{
+    padding: 10px 10px 10px 10px;
+    border: 2px rgb(255, 0, 0) solid;
+    width: fit-content;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: orangered;
+}
+
+#AddCoffee:hover{
+    box-shadow: 2px 2px 2px 2px rgb(32, 28, 28);
+}
+
+#AddPanner{
+    padding: 10px 10px 10px 10px;
+    border: 2px rgb(255, 0, 0) solid;
+    width: fit-content;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: orangered;
+    
+}
+
+#AddPanner:hover{
+    box-shadow: 2px 2px 2px 2px rgb(32, 28, 28);
+}
+
+#basicneeds{
+    padding: 10px 10px;
+    font-size: 30px;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    margin-left: 600px;
+    border: 2px grey solid;
+    width: fit-content;
+    border-radius: 12px;
+    background-color: rgb(0, 59, 51);
+    box-shadow:1px 1px 7px 7px rgb(53, 47, 47);
+}
+
+.kiryanaitemscontainer{
+    padding: 20px 20px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px 280px;
+    border-radius: 50%;
+    margin-left: 30px;
+    border-radius: 20px;
+    height: 100%;
+    animation: kiryana 5s infinite ease alternate;
+    box-shadow: 0.4px 0.4px 5px 5px rgb(255, 207, 207);
+}
+
+@keyframes kiryana{
+    0%{
+        background-color: chocolate;
+    }
+    40%{
+        background-color: darkcyan;
+    }
+    68%{
+        background-color: darkkhaki;
+    }
+    100%{
+        background-color: darkorchid;
+    }
+}
+
+.kiryanaitems{
+    width: 200px;
+    height: 100px;
+    border: 2px black solid;
+    border-radius: 50%;
+    background-color: rgb(51, 50, 48);
+    box-shadow: 1px 1px 6px 6px rgb(51, 45, 45);
+    cursor: pointer;
+}
+
+.kiryanaitems:hover{
+  box-shadow: none;
+}
+
+#Soap{
+    background-image: url(images/soap.webp);
+    background-size: cover;
+}
+
+#Toothpaste{
+    background-image: url(images/toothpaste\ gel.jpg);
+    background-size: contain;
+}
+
+#Brush{
+    background-image: url(images/toothbrush.jpg);
+    background-size: cover;
+}
+
+#ClothSoap{
+    background-image: url(images/cloth\ soap.jpg);
+    background-size: contain;
+}
+
+#BartanBar{
+    background-image: url(images/vim.jpg);
+    background-size: contain;
+}
+
+#Medician{
+    background-image: url(images/medician.jpg);
+    background-size: cover;
+}
+
+#Comb{
+    background-image: url(images/comb.jpeg);
+    background-size: contain;
+}
+
+#Hairoil{
+    background-image: url(images/hairoil.jpg);
+    background-size: cover;
+}
+
+#Hairgel{
+    background-image: url(images/gel.webp);
+    background-size: contain;
+}
+
+#HairShampoo{
+    background-image: url(images/shampoo.jpg);
+    background-size: cover;
+}
+
+#Facewash{
+    background-image: url(images/facebook.jpg);
+    background-size: contain;
+}
+
+#CreamforAll{
+    background-image: url(images/cram.jpg);
+    background-size: cover;
+}
+
+#Facewash{
+    background-image: url(images/facebook.jpg);
+    background-size: contain;
+}
+
+#Oil{
+    background-image: url(images/oil.png);
+    background-size: cover;
+}
+
+#DesiGhee{
+    background-image: url(images/desi\ ghee.jpg);
+    background-size: contain;
+}
+
+#BasmatiRice{
+    background-image: url(images/basmati\ rice.jpg);
+    background-size: cover;
+}
+
+#NonBasmatiRice{
+    background-image: url(images/all\ rice.jpg);
+    background-size: contain;
+}
+
+
+#PenandPencils{
+    background-image: url(images/pen\ and\ pencil.jpg);
+    background-size: cover;
+}
+
+#Notebook{
+    background-image: url(images/notebook.jpeg);
+    background-size: cover;
+}
+
+#Stepler{
+    background-image: url(images/stepler.jpg);
+    background-size: contain;
+}
+
+#Nailcutter{
+    background-image: url(images/nailcutter.jpeg);
+    background-size: contain;
+}
+
+#Washingpowder{
+    background-image: url(images/washing\ powder.jpg);
+    background-size: contain;
+}
+
+#Hairserum{
+    background-image: url(images/serum.jpg);
+    background-size: cover;
+}
+
+#Fekiquick{
+    background-image: url(images/Fekiquick.jpg);
+    background-size: contain;
+}
+
+#BalajiSindoor{
+    background-image: url(images/sindoor.jpg);
+    background-size: contain;
+}
+
+#SChanna{
+    background-image: url(images/Channa.jpg);
+    background-size: contain;
+}
+
+#DryFruits{
+    background-image: url(images/dry\ fruits.jpg);
+    background-size: cover;
+}
+
+#Deosant{
+    background-image: url(images/sant.jpeg);
+    background-size: contain;
+}
+
+#Dhoop{
+    background-image: url(images/dhoop.jpg);
+    background-size: cover;
+}
+
+#mouthfresh{
+    background-image: url(images/mouthfresh.jpg);
+    background-size: contain;
+}
+
+#Sugar{
+    background-image: url(images/Sugar.jpg);
+    background-size: cover;
+}
+
+#Besan{
+    background-image: url(images/besan.jpg);
+    background-size: contain;
+}
+
+#Trimmer{
+    background-image: url(images/Trimmer.jpeg);
+    background-size: contain;
+}
+
+#Rubberbands{
+    background-image: url(images/Rubberband.jpg);
+    background-size: contain;
+}
+
+#Dal{
+    background-image: url(images/dals.jpg);
+    background-size: cover;
+}
+
+#trashcans{
+    background-image: url(images/trash\ cans.jpg);
+    background-size: cover;
+}
+
+#Addbasic{
+    padding: 10px 10px;
+    border:2px rgb(255, 255, 255) solid;
+    color: rgb(224, 224, 224);
+    width: fit-content;
+    cursor: pointer;
+    box-shadow: 0.7px 0.7px 6px 6px rgb(56, 55, 55);
+    border-radius: 18px;
+    margin: 15px 15px;
+    background-color: rgb(20, 18, 18);
+}
+
+#viewbasicneeds{
+    padding: 8px 8px;
+    font-size: 35px;
+    border: 2px rgb(172, 164, 164) solid;
+    background-color: rgb(61, 36, 0);
+    color: rgb(204, 204, 204);
+    width: fit-content;
+    border-radius: 15px;
+    margin: 20px 20px;
+    margin-left: 550px;
+    box-shadow: 1px 1px 8px 8px black;
+    cursor: pointer;
+}
+
+.saleposter{
+    width: 100%;
+    height: 500px;
+    margin: 30px auto;
+    animation: slide 20s infinite ease-in alternate;
+    background-size: cover;
+}
+
+.saleposter:hover{
+    box-shadow: 2px 2px 5px 2px rgb(15, 34, 34);
+}
+
+@keyframes slide{
+    0%{
+        background-image: url(images/sale\ grocery.jpg);
+    }
+
+    50%{
+        background-image: url(https://i.pinimg.com/originals/03/04/01/03040124186e4fc27b984cad3789a01f.jpg);
+    }
+
+    100%{
+        background-image: url(images/sale.jpg);
+    }
+}
+
+.packetsitemcontainer{
+    margin: 0px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px 230px 230px;
+    padding: 20px 20px;
+    width: 90%;
+    height: 100%;
+    background-color: silver;
+    margin-left: 100px;
+}
+
+#packetitemheading{
+    padding: 10px 10px;
+    width: fit-content;
+    margin-left: 500px;
+    border:2px rgb(175, 12, 6) solid;
+    border-radius: 8px;
+    cursor: pointer;
+    color: rgb(252, 246, 235);
+    background-color: rgb(221, 63, 42);
+    box-shadow: 1px 1px 5px 5px rgb(212, 73, 8);
+    transition: 0.8s;
+}
+
+#packetitemheading:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.packetitems{
+    padding: 10px 10px;
+    margin: 10px 30px 10px 10px;
+    width: 120px;
+    height: 80px;
+    background-color: rgb(136, 136, 131);
+    cursor: pointer;
+}
+
+#Lays{
+    background-image: url(images/lays.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#KurKure{
+    background-image: url(images/kurkure.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Takatak{
+    background-image: url(images/takatak.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Namkeen{
+    background-image: url(images/Namkeen.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Biscuits{
+    background-image: url(images/biscuits.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Pakodes{
+    background-image: url(images/pakode.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#AddLays{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddLays:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddKurKure{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddKurKure:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddTakaTak{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddTakaTak:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddNamkeen{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    background-color: rgb(167, 39, 39);
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddNamkeen:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddBiscuits{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddBiscuits:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddPakodes{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddPakodes:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+
+#Candys{
+    background-image: url(images/candy.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Chocolate{
+    background-image: url(images/choco.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Maggie{
+    background-image: url(images/Maggie.webp);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Cake{
+    background-image: url(images/cake.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Icecream{
+    background-image: url(images/ice\ cream.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Samosa{
+    background-image: url(images/samosa.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Addcandys{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#Addcandys:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#Addchocolate{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#Addchocolate:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddMaggie{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddMaggie:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#Addcake{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    background-color: rgb(167, 39, 39);
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#Addcake:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#Addice-cream{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#Addice-cream:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#Addsamosa{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#Addsamosa:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AlooChips{
+    background-image: url(images/aloo\ chips.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#BingoTriangle{
+    background-image: url(images/bingo\ triangles.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Nutella{
+    background-image: url(images/nutella.jpg);
+    background-size: contain;
+    border-radius: 50%;
+}
+
+#Britania{
+    background-image: url(images/britania.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Nestla{
+    background-image: url(images/nestla.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Banachips{
+    background-image: url(images/bnana\ chips.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#AddAloochips{
+    padding: 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    height: fit-content;
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddAloochips:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddBingoTriangles{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddBingoTriangles:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddNutella{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddNutella:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddBritania{
+    padding: 5px 5px;
+    height: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    background-color: rgb(167, 39, 39);
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddBritania:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddNestla{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    height:fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddNestla:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddBanachips{
+    padding: 5px 5px;
+    height: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddBanachips:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#Mango{
+    background-image: url(images/mango.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Katore{
+    background-image: url(images/katore.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Momos{
+    background-image: url(images/veg\ momos.jpg);
+    background-size: contain;
+    border-radius: 50%;
+}
+
+#Pani-pure{
+    background-image: url(images/pani\ pure.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Amlamuraba{
+    background-image: url(images/amla\ muraba.jpg);
+    background-size: contain;
+    border-radius: 50%;
+}
+
+#Tikki{
+    background-image: url(images/Tikki.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#AddaMango{
+    padding: 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    height: fit-content;
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddaMango:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddKatore{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddKatore:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddMomos{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddMomos:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddPaniPure{
+    padding: 5px 5px;
+    height: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    background-color: rgb(167, 39, 39);
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddPaniPure:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddAmlamuraba{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    height:fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddAmlamuraba:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddTikki{
+    padding: 5px 5px;
+    height: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddTikki:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#dahi-balle{
+    background-image: url(images/dahi\ balle.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Channa{
+    background-image: url(images/roasted\ channa.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#badam{
+    background-image: url(images/badam\'.jpg);
+    background-size: contain;
+    border-radius: 50%;
+}
+
+#pistamasala{
+    background-image: url(images/masala\ pista.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Rasgulle{
+    background-image: url(images/rasgulle.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#Mungfale{
+    background-image: url(images/munfalle.jpg);
+    background-size: contain;
+    border-radius: 50%;
+}
+
+#Adddahiballe{
+    padding: 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    height: fit-content;
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#Adddahiballe:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddChanna{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddChanna:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#Addbadam{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#Addbadam:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#Addpistamasala{
+    padding: 5px 5px;
+    height: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    background-color: rgb(167, 39, 39);
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#Addpistamasala:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddRAsgulle{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    height:fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddRAsgulle:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#AddmMungfale{
+    padding: 5px 5px;
+    height: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px rgb(180, 0, 0) solid;
+    width: fit-content;
+    box-shadow: 0.5px 0.5px 4px 4px black;
+    background-color: rgb(167, 39, 39);
+    font-size: 20px;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#AddmMungfale:hover{
+    box-shadow: 1px 1px 6px 6px orangered;
+    font-size: 20px;
+}
+
+#viewitems{
+    justify-content: center;
+    border: 3px rgb(126, 17, 17) solid;
+    font-size: 40px;
+    background-color: black;
+    box-shadow: 0.4px 0.4px 6px 6px black;
+}
+
+#viewitems:hover{
+    background-color: rgb(211, 59, 59);
+}
+
+.contactuscontainer{
+    padding: 20px 20px;
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 70%;
+    animation: colorchange 10s infinite ease-in alternate;
+    height: 50vh;
+    border-radius: 12px;
+    box-shadow: 0.5px 0.5px 5px 5px darkgray;
+}
+
+@keyframes colorchange{
+    0%{
+        border-color: blue;
+    }
+    35%{
+        background-color: rgb(3, 201, 207);
+    }
+    67%{
+        background-color: firebrick;
+    }
+    100%{
+        background-color: rgb(110, 0, 68);
+    }
+}
+
+.contactus{
+    padding: 5px 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 250px;
+    box-shadow: 0.8px 0.8px 5px 5px rgb(48, 46, 46);
+    font-size: 42px;
+    color: honeydew;
+    border: 2px grey solid;
+    width: fit-content;
+    background-color: rgb(0, 41, 51);
+}
+
+.contactuscontainer h2{
+    font-size: 34px;
+    margin-top: 50px;
+    margin-left: 170px;
+    color: honeydew;
+}
+
+.contactuscontainer h2 input{
+    padding: 10px 10px;
+    font-size: 45px;
+    border-radius: 18px;
+    border: 1px black solid;
+}
+
+.contactuscontainer h2 a{
+    padding: 8px 8px;
+    letter-spacing: 1rem;
+    border-radius: 12px;
+    background-color: rgb(46, 38, 38);
+    margin-left: 30px;
+    box-shadow: 00.4px 0.4px 5px 5px black;
+}
+
+.footercontainer{
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    height: 33vh;
+    background-color: rgb(15, 14, 14);
+    border-radius: 12px;
+}
+
+.footercontainer h2{
+    padding: 15px 15px 15px 15px;
+    margin-left: 200px;
+    font-size: 48px;
+}
+
+.iconsbottom{
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.footercontainer h3 a{
+    margin-left: 220px;
+    margin-top: 400px;
+}
+
+.copywrite{
+    background-color: grey;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.copywrite h4{
+    padding: 17px 17px;
+    margin-left: 500px;
+}
+
+.socialmedia{
+    margin-left: 500px;
+    position: absolute;
+    top: 5940px;
+    color: rgb(100, 49, 49);
+}
+
+.socialmedia h2 a img{
+    border: 1px rgb(255, 255, 255) solid;
+    border-radius: 50%;
+    background-color: wheat;
+}
+
+.socialmedia h2 a img:hover{
+    box-shadow: 0.4px 0.4px 5px 5px white;
+}
